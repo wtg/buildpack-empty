@@ -1,5 +1,6 @@
 cat <<EOF
 ---
 addons: []
-default_process_types: []
+default_process_types: 
+  web: sleep 60
 EOF
