@@ -1,1 +1,6 @@
-#!/bin/sh
+cat <<EOF
+---
+addons: []
+default_process_types:
+  web: cat
+EOF
